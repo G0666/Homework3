@@ -1,0 +1,27 @@
+package ALL;
+
+public class Sample3_6 {
+	public static void main(String [] args) 
+	 {
+		 Car car1;
+		 car1 = new Car();
+		 
+		 car1.setNum(1234);
+		 car1.setGas(20.5);
+	 }
+	}
+
+	class Car {
+		int num;
+		double gas;
+		
+		void setNum(int n) {
+			num = n ;
+			System.out.println("將車號設為"+num);
+			 System.out.println("汽油輛是"+gas);
+		}
+		void setGas(double g) {
+			gas = g;
+			System.out.println("將汽油輛設為"+gas);
+		}
+}
